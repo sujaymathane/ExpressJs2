@@ -10,5 +10,5 @@ app.get("/home",function(req,res){
     res.sendFile(path.join(__dirname,"public/index.html"));
 })
 
-app.listen(3000);
-console.log("server is listening to port number 3000");
+app.listen(8000);
+console.log("server is listening to port number 8000");
